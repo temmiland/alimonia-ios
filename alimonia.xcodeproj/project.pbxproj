@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20978D42650304A0044CD9B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20978D32650304A0044CD9B /* HomeView.swift */; };
+		E20978D6265033090044CD9B /* MealStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20978D5265033090044CD9B /* MealStack.swift */; };
+		E20978DB265055090044CD9B /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20978DA265055090044CD9B /* MultilineTextView.swift */; };
+		E20DB229268A4C3A00EDCEEA /* PositionScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = E20DB228268A4C3A00EDCEEA /* PositionScrollView */; };
+		E215A1172673B92A000C7011 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215A1162673B92A000C7011 /* CustomScrollView.swift */; };
+		E225C42926507CEF00E96B50 /* Alimonia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E225C42726507CEF00E96B50 /* Alimonia.xcdatamodeld */; };
+		E225C42B26508E9800E96B50 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225C42A26508E9800E96B50 /* Persistence.swift */; };
+		E225C42D26513B0600E96B50 /* NavigationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225C42C26513B0600E96B50 /* NavigationSearch.swift */; };
+		E225C43026513C4E00E96B50 /* NavigationSearchBar in Frameworks */ = {isa = PBXBuildFile; productRef = E225C42F26513C4E00E96B50 /* NavigationSearchBar */; };
+		E2300BAA269CCBEC00A7840E /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2300BA9269CCBEC00A7840E /* BackgroundImage.swift */; };
+		E24E91C725CF111F00D3DD5F /* CMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E91C625CF111F00D3DD5F /* CMeal.swift */; };
+		E24E91CF25CF11FB00D3DD5F /* CIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E91CE25CF11FB00D3DD5F /* CIngredient.swift */; };
+		E24E91D425CF124100D3DD5F /* CUom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E91D325CF124100D3DD5F /* CUom.swift */; };
+		E25EBD3F25C0338C00F9B021 /* AlimoniaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EBD3E25C0338C00F9B021 /* AlimoniaApp.swift */; };
+		E25EBD4125C0338C00F9B021 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EBD4025C0338C00F9B021 /* MealView.swift */; };
+		E25EBD4325C0338D00F9B021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25EBD4225C0338D00F9B021 /* Assets.xcassets */; };
+		E25EBD4625C0338D00F9B021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25EBD4525C0338D00F9B021 /* Preview Assets.xcassets */; };
+		E25EBD5125C0338D00F9B021 /* alimoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EBD5025C0338D00F9B021 /* alimoniaTests.swift */; };
+		E25EBD5C25C0338D00F9B021 /* alimoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EBD5B25C0338D00F9B021 /* alimoniaUITests.swift */; };
+		E260CE5A2634D0D900F4A9FA /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260CE592634D0D900F4A9FA /* CustomTextEditor.swift */; };
+		E273099C264FF8E0009379D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273099B264FF8E0009379D4 /* MainView.swift */; };
+		E278B01B25C235A8000F5957 /* NewMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278B01A25C235A8000F5957 /* NewMealView.swift */; };
+		E281E805265863A1008C0DAD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E804265863A1008C0DAD /* ImagePicker.swift */; };
+		E281E80E265AE933008C0DAD /* DetailMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E80D265AE933008C0DAD /* DetailMealView.swift */; };
+		E281E810265B055E008C0DAD /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E80F265B055E008C0DAD /* VisualEffectBlur.swift */; };
+		E2F4864C26361A2500E0CC75 /* CIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4864B26361A2500E0CC75 /* CIngredients.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25EBD4D25C0338D00F9B021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25EBD3325C0338C00F9B021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25EBD3A25C0338C00F9B021;
+			remoteInfo = alimonia;
+		};
+		E25EBD5825C0338D00F9B021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25EBD3325C0338C00F9B021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25EBD3A25C0338C00F9B021;
+			remoteInfo = alimonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E20978D32650304A0044CD9B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E20978D5265033090044CD9B /* MealStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStack.swift; sourceTree = "<group>"; };
+		E20978DA265055090044CD9B /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
+		E215A1162673B92A000C7011 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		E225C42826507CEF00E96B50 /* Alimonia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alimonia.xcdatamodel; sourceTree = "<group>"; };
+		E225C42A26508E9800E96B50 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E225C42C26513B0600E96B50 /* NavigationSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearch.swift; sourceTree = "<group>"; };
+		E2300BA9269CCBEC00A7840E /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		E24E91C625CF111F00D3DD5F /* CMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMeal.swift; sourceTree = "<group>"; };
+		E24E91CE25CF11FB00D3DD5F /* CIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIngredient.swift; sourceTree = "<group>"; };
+		E24E91D325CF124100D3DD5F /* CUom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUom.swift; sourceTree = "<group>"; };
+		E25EBD3B25C0338C00F9B021 /* alimonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alimonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25EBD3E25C0338C00F9B021 /* AlimoniaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimoniaApp.swift; sourceTree = "<group>"; };
+		E25EBD4025C0338C00F9B021 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		E25EBD4225C0338D00F9B021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25EBD4525C0338D00F9B021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E25EBD4725C0338D00F9B021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25EBD4C25C0338D00F9B021 /* alimoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alimoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25EBD5025C0338D00F9B021 /* alimoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alimoniaTests.swift; sourceTree = "<group>"; };
+		E25EBD5225C0338D00F9B021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25EBD5725C0338D00F9B021 /* alimoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alimoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25EBD5B25C0338D00F9B021 /* alimoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alimoniaUITests.swift; sourceTree = "<group>"; };
+		E25EBD5D25C0338D00F9B021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E260CE592634D0D900F4A9FA /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		E273099B264FF8E0009379D4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E278B01A25C235A8000F5957 /* NewMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealView.swift; sourceTree = "<group>"; };
+		E281E804265863A1008C0DAD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E281E80D265AE933008C0DAD /* DetailMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealView.swift; sourceTree = "<group>"; };
+		E281E80F265B055E008C0DAD /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		E2F4864B26361A2500E0CC75 /* CIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIngredients.swift; sourceTree = "<group>"; };
+		E2F842CE25C0B68D000FFBBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2F842CF25C0BA6B000FFBBD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25EBD3825C0338C00F9B021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E225C43026513C4E00E96B50 /* NavigationSearchBar in Frameworks */,
+				E20DB229268A4C3A00EDCEEA /* PositionScrollView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD4925C0338D00F9B021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD5425C0338D00F9B021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20978D026502F0A0044CD9B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				E20978D32650304A0044CD9B /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		E24E91C525CF10EA00D3DD5F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E24E91C625CF111F00D3DD5F /* CMeal.swift */,
+				E24E91CE25CF11FB00D3DD5F /* CIngredient.swift */,
+				E24E91D325CF124100D3DD5F /* CUom.swift */,
+				E2F4864B26361A2500E0CC75 /* CIngredients.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E25EBD3225C0338C00F9B021 = {
+			isa = PBXGroup;
+			children = (
+				E2F842CF25C0BA6B000FFBBD /* LICENSE */,
+				E2F842CE25C0B68D000FFBBD /* README.md */,
+				E25EBD3D25C0338C00F9B021 /* alimonia */,
+				E25EBD4F25C0338D00F9B021 /* alimoniaTests */,
+				E25EBD5A25C0338D00F9B021 /* alimoniaUITests */,
+				E25EBD3C25C0338C00F9B021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25EBD3C25C0338C00F9B021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25EBD3B25C0338C00F9B021 /* alimonia.app */,
+				E25EBD4C25C0338D00F9B021 /* alimoniaTests.xctest */,
+				E25EBD5725C0338D00F9B021 /* alimoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25EBD3D25C0338C00F9B021 /* alimonia */ = {
+			isa = PBXGroup;
+			children = (
+				E260CE582634D0C600F4A9FA /* components */,
+				E29962362634BFAE0079E8DC /* views */,
+				E24E91C525CF10EA00D3DD5F /* model */,
+				E25EBD3E25C0338C00F9B021 /* AlimoniaApp.swift */,
+				E25EBD4225C0338D00F9B021 /* Assets.xcassets */,
+				E25EBD4725C0338D00F9B021 /* Info.plist */,
+				E25EBD4425C0338D00F9B021 /* Preview Content */,
+				E225C42726507CEF00E96B50 /* Alimonia.xcdatamodeld */,
+				E225C42A26508E9800E96B50 /* Persistence.swift */,
+			);
+			path = alimonia;
+			sourceTree = "<group>";
+		};
+		E25EBD4425C0338D00F9B021 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E25EBD4525C0338D00F9B021 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E25EBD4F25C0338D00F9B021 /* alimoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25EBD5025C0338D00F9B021 /* alimoniaTests.swift */,
+				E25EBD5225C0338D00F9B021 /* Info.plist */,
+			);
+			path = alimoniaTests;
+			sourceTree = "<group>";
+		};
+		E25EBD5A25C0338D00F9B021 /* alimoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E25EBD5B25C0338D00F9B021 /* alimoniaUITests.swift */,
+				E25EBD5D25C0338D00F9B021 /* Info.plist */,
+			);
+			path = alimoniaUITests;
+			sourceTree = "<group>";
+		};
+		E260CE582634D0C600F4A9FA /* components */ = {
+			isa = PBXGroup;
+			children = (
+				E260CE592634D0D900F4A9FA /* CustomTextEditor.swift */,
+				E20978D5265033090044CD9B /* MealStack.swift */,
+				E20978DA265055090044CD9B /* MultilineTextView.swift */,
+				E225C42C26513B0600E96B50 /* NavigationSearch.swift */,
+				E281E804265863A1008C0DAD /* ImagePicker.swift */,
+				E215A1162673B92A000C7011 /* CustomScrollView.swift */,
+				E2300BA9269CCBEC00A7840E /* BackgroundImage.swift */,
+				E281E80F265B055E008C0DAD /* VisualEffectBlur.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		E273099A264FF3E3009379D4 /* meals */ = {
+			isa = PBXGroup;
+			children = (
+				E25EBD4025C0338C00F9B021 /* MealView.swift */,
+				E278B01A25C235A8000F5957 /* NewMealView.swift */,
+				E281E80D265AE933008C0DAD /* DetailMealView.swift */,
+			);
+			path = meals;
+			sourceTree = "<group>";
+		};
+		E29962362634BFAE0079E8DC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E20978D026502F0A0044CD9B /* home */,
+				E273099A264FF3E3009379D4 /* meals */,
+				E273099B264FF8E0009379D4 /* MainView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25EBD3A25C0338C00F9B021 /* alimonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25EBD6025C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimonia" */;
+			buildPhases = (
+				E25EBD3725C0338C00F9B021 /* Sources */,
+				E25EBD3825C0338C00F9B021 /* Frameworks */,
+				E25EBD3925C0338C00F9B021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alimonia;
+			packageProductDependencies = (
+				E225C42F26513C4E00E96B50 /* NavigationSearchBar */,
+				E20DB228268A4C3A00EDCEEA /* PositionScrollView */,
+			);
+			productName = alimonia;
+			productReference = E25EBD3B25C0338C00F9B021 /* alimonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25EBD4B25C0338D00F9B021 /* alimoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25EBD6325C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimoniaTests" */;
+			buildPhases = (
+				E25EBD4825C0338D00F9B021 /* Sources */,
+				E25EBD4925C0338D00F9B021 /* Frameworks */,
+				E25EBD4A25C0338D00F9B021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25EBD4E25C0338D00F9B021 /* PBXTargetDependency */,
+			);
+			name = alimoniaTests;
+			productName = alimoniaTests;
+			productReference = E25EBD4C25C0338D00F9B021 /* alimoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E25EBD5625C0338D00F9B021 /* alimoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25EBD6625C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimoniaUITests" */;
+			buildPhases = (
+				E25EBD5325C0338D00F9B021 /* Sources */,
+				E25EBD5425C0338D00F9B021 /* Frameworks */,
+				E25EBD5525C0338D00F9B021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25EBD5925C0338D00F9B021 /* PBXTargetDependency */,
+			);
+			name = alimoniaUITests;
+			productName = alimoniaUITests;
+			productReference = E25EBD5725C0338D00F9B021 /* alimoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25EBD3325C0338C00F9B021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E25EBD3A25C0338C00F9B021 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E25EBD4B25C0338D00F9B021 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E25EBD3A25C0338C00F9B021;
+					};
+					E25EBD5625C0338D00F9B021 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E25EBD3A25C0338C00F9B021;
+					};
+				};
+			};
+			buildConfigurationList = E25EBD3625C0338C00F9B021 /* Build configuration list for PBXProject "alimonia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25EBD3225C0338C00F9B021;
+			packageReferences = (
+				E225C42E26513C4E00E96B50 /* XCRemoteSwiftPackageReference "NavigationSearchBar" */,
+				E20DB227268A4C3A00EDCEEA /* XCRemoteSwiftPackageReference "PositionScrollView" */,
+			);
+			productRefGroup = E25EBD3C25C0338C00F9B021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25EBD3A25C0338C00F9B021 /* alimonia */,
+				E25EBD4B25C0338D00F9B021 /* alimoniaTests */,
+				E25EBD5625C0338D00F9B021 /* alimoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25EBD3925C0338C00F9B021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25EBD4625C0338D00F9B021 /* Preview Assets.xcassets in Resources */,
+				E25EBD4325C0338D00F9B021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD4A25C0338D00F9B021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD5525C0338D00F9B021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25EBD3725C0338C00F9B021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E225C42D26513B0600E96B50 /* NavigationSearch.swift in Sources */,
+				E2F4864C26361A2500E0CC75 /* CIngredients.swift in Sources */,
+				E225C42926507CEF00E96B50 /* Alimonia.xcdatamodeld in Sources */,
+				E2300BAA269CCBEC00A7840E /* BackgroundImage.swift in Sources */,
+				E20978DB265055090044CD9B /* MultilineTextView.swift in Sources */,
+				E225C42B26508E9800E96B50 /* Persistence.swift in Sources */,
+				E273099C264FF8E0009379D4 /* MainView.swift in Sources */,
+				E24E91C725CF111F00D3DD5F /* CMeal.swift in Sources */,
+				E20978D42650304A0044CD9B /* HomeView.swift in Sources */,
+				E215A1172673B92A000C7011 /* CustomScrollView.swift in Sources */,
+				E24E91D425CF124100D3DD5F /* CUom.swift in Sources */,
+				E260CE5A2634D0D900F4A9FA /* CustomTextEditor.swift in Sources */,
+				E25EBD4125C0338C00F9B021 /* MealView.swift in Sources */,
+				E24E91CF25CF11FB00D3DD5F /* CIngredient.swift in Sources */,
+				E25EBD3F25C0338C00F9B021 /* AlimoniaApp.swift in Sources */,
+				E281E80E265AE933008C0DAD /* DetailMealView.swift in Sources */,
+				E281E805265863A1008C0DAD /* ImagePicker.swift in Sources */,
+				E281E810265B055E008C0DAD /* VisualEffectBlur.swift in Sources */,
+				E20978D6265033090044CD9B /* MealStack.swift in Sources */,
+				E278B01B25C235A8000F5957 /* NewMealView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD4825C0338D00F9B021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25EBD5125C0338D00F9B021 /* alimoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25EBD5325C0338D00F9B021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25EBD5C25C0338D00F9B021 /* alimoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25EBD4E25C0338D00F9B021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25EBD3A25C0338C00F9B021 /* alimonia */;
+			targetProxy = E25EBD4D25C0338D00F9B021 /* PBXContainerItemProxy */;
+		};
+		E25EBD5925C0338D00F9B021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25EBD3A25C0338C00F9B021 /* alimonia */;
+			targetProxy = E25EBD5825C0338D00F9B021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E25EBD5E25C0338D00F9B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E25EBD5F25C0338D00F9B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25EBD6125C0338D00F9B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"alimonia/Preview Content\"";
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = alimonia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25EBD6225C0338D00F9B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"alimonia/Preview Content\"";
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = alimonia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25EBD6425C0338D00F9B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				INFOPLIST_FILE = alimoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alimonia.app/alimonia";
+			};
+			name = Debug;
+		};
+		E25EBD6525C0338D00F9B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				INFOPLIST_FILE = alimoniaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alimonia.app/alimonia";
+			};
+			name = Release;
+		};
+		E25EBD6725C0338D00F9B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				INFOPLIST_FILE = alimoniaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alimonia;
+			};
+			name = Debug;
+		};
+		E25EBD6825C0338D00F9B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8G3CH646T;
+				INFOPLIST_FILE = alimoniaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wtf.tomxpcvx.alimoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alimonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25EBD3625C0338C00F9B021 /* Build configuration list for PBXProject "alimonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25EBD5E25C0338D00F9B021 /* Debug */,
+				E25EBD5F25C0338D00F9B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25EBD6025C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25EBD6125C0338D00F9B021 /* Debug */,
+				E25EBD6225C0338D00F9B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25EBD6325C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25EBD6425C0338D00F9B021 /* Debug */,
+				E25EBD6525C0338D00F9B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25EBD6625C0338D00F9B021 /* Build configuration list for PBXNativeTarget "alimoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25EBD6725C0338D00F9B021 /* Debug */,
+				E25EBD6825C0338D00F9B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E20DB227268A4C3A00EDCEEA /* XCRemoteSwiftPackageReference "PositionScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kazuooooo/PositionScrollView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		E225C42E26513C4E00E96B50 /* XCRemoteSwiftPackageReference "NavigationSearchBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markvanwijnen/NavigationSearchBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E20DB228268A4C3A00EDCEEA /* PositionScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E20DB227268A4C3A00EDCEEA /* XCRemoteSwiftPackageReference "PositionScrollView" */;
+			productName = PositionScrollView;
+		};
+		E225C42F26513C4E00E96B50 /* NavigationSearchBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E225C42E26513C4E00E96B50 /* XCRemoteSwiftPackageReference "NavigationSearchBar" */;
+			productName = NavigationSearchBar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E225C42726507CEF00E96B50 /* Alimonia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E225C42826507CEF00E96B50 /* Alimonia.xcdatamodel */,
+			);
+			currentVersion = E225C42826507CEF00E96B50 /* Alimonia.xcdatamodel */;
+			path = Alimonia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E25EBD3325C0338C00F9B021 /* Project object */;
+}

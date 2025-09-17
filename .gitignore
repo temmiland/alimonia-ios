@@ -1,0 +1,36 @@
+# Xcode
+*.xcworkspace
+!Pods/ # falls du Pods committed hast
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+DerivedData/
+build/
+
+# Swift Package Manager
+/.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Personal settings
+*.xcconfig
+.env
+
+# Build outputs
+*.app
+*.ipa
+
+# macOS
+.DS_Store
+
